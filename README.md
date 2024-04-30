@@ -11,3 +11,5 @@ review my bug
     <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"  output="screen" >
         <param name="publish_frequency" type="double" value="50.0" />
     </node>
+
+* 2024.4.30 vins-mono 仿真外参设置，摄像机的坐标与ros不同，做摄像机到IMU变换时要注意。
